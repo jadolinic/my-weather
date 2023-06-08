@@ -10,7 +10,7 @@ If you want to contribute to this just follow next steps:
 
 After cloning you will need to install NPM packages with command:
 
-### `npm install
+### `npm install`
 
 After you have successfully installed packages just go to the folder and run next command
 
