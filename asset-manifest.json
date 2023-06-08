@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-weather/static/css/main.9c969df7.css",
+    "main.js": "/my-weather/static/js/main.457f9199.js",
+    "static/js/787.86bdc561.chunk.js": "/my-weather/static/js/787.86bdc561.chunk.js",
+    "index.html": "/my-weather/index.html",
+    "main.9c969df7.css.map": "/my-weather/static/css/main.9c969df7.css.map",
+    "main.457f9199.js.map": "/my-weather/static/js/main.457f9199.js.map",
+    "787.86bdc561.chunk.js.map": "/my-weather/static/js/787.86bdc561.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c969df7.css",
+    "static/js/main.457f9199.js"
+  ]
+}
