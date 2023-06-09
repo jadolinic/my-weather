@@ -1,16 +1,32 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: rgba(0,0,0,0.4);
+  color: #fff;
 }
 
 
-.App-header {
-  background: linear-gradient(#e66465, #9198e5);
-  min-height: 100vh;
+.container {
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
+.App:before  {
+  content: '';
+  background: url('../src/assets/nature.jpeg') no-repeat center center/cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
